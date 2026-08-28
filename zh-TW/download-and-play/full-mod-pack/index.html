@@ -1738,17 +1738,17 @@
 <h2 id="_2">📦 完整模組客戶端包<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <h3 id="_3">包內結構<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>README_安装必看.txt
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>mods/            (17 个 jar)
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>mods/            (17 個 jar)
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>config/
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>defaultconfigs/
 </span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>kubejs/
 </span></code></pre></div>
-<p>沒有巢狀的 <code>.minecraft/</code> 目錄，不含啟動器，也不含 <code>run_game.bat</code>。Minecraft 本體與 Forge 由你的啟動器負責安裝，因此使用本包的前提是<strong>你已經會在啟動器裡建立例項</strong>。</p>
+<p>沒有嵌套的 <code>.minecraft/</code> 目錄，不含啟動器，也不含 <code>run_game.bat</code>。Minecraft 本體與 Forge 由你的啟動器負責安裝，因此使用本包的前提是<strong>你已經會在啟動器裡建立例項</strong>。</p>
 <h3 id="_4">硬性環境要求<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">專案</th>
+<th style="text-align: left;">項目</th>
 <th style="text-align: left;">版本</th>
 <th style="text-align: left;">說明</th>
 </tr>
@@ -1801,7 +1801,7 @@
 </div>
 <blockquote>
 <p>[!WARNING]
-檔名以 <code>-slim.jar</code> 或 <code>-dev-slim.jar</code> 結尾的 jar 是面向 Maven 使用者的構件，<strong>故意不打包任何內嵌依賴</strong>，絕對不要放進 <code>mods/</code>。否則 Forge 會選中一個不含內嵌 <code>ldlib</code> 的 <code>gtceu</code> 構建並直接中止：<code>Missing or unsupported mandatory dependencies: Mod ID: 'ldlib' ... [MISSING]</code>。官方釋出的三個包均不含此類檔案。</p>
+檔名以 <code>-slim.jar</code> 或 <code>-dev-slim.jar</code> 結尾的 jar 是面向 Maven 使用者的構件，<strong>故意不打包任何內嵌依賴</strong>，絕對不要放進 <code>mods/</code>。否則 Forge 會選中一個不含內嵌 <code>ldlib</code> 的 <code>gtceu</code> 構建並直接中止：<code>Missing or unsupported mandatory dependencies: Mod ID: 'ldlib' ... [MISSING]</code>。官方發布的三個包均不含此類檔案。</p>
 </blockquote>
 <hr />
 <h2 id="java-21">⚠️ Java 21 執行環境要求（極其重要）<a class="headerlink" href="#java-21" title="Permanent link">&para;</a></h2>
